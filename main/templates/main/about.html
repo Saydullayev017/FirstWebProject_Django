@@ -1,7 +1,11 @@
 {% extends 'main/layout.html' %}
 
-{% block title%}About{% endblock %}
+{% block title%}Про Нас{% endblock %}
 
 {% block content%}
-    <h1>About Page</h1>
+<div class="features">
+    <h1>Про Нас</h1>
+    <p>{% lorem 1 b random %}</p>
+    <button type="button" class="btn btn-secondary">Button Denger</button>
+</div>
 {% endblock %}
