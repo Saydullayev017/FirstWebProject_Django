@@ -58,3 +58,27 @@ main .features {
 
 main .features h1{font-size: 50px;}
 main .features p {max-width: 400px; margin: 20px auto;}
+
+/* ------------------------- */
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+  
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
