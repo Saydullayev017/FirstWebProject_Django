@@ -82,3 +82,10 @@ body::-webkit-scrollbar {
     background-color: darkgrey;
     outline: 1px solid slategrey;
   }
+
+/* -----------------------------------------*/
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
